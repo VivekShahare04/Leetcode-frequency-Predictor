@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>prediction result</h1>
+
+    <p><strong>Predicted Frequency:</strong> {{ frequency }}</p>
+    <p><strong>Predicted Acceptance:</strong> {{ acceptance }}</p> 
+    <br>
+    <br>
+    
+    <a href="/">Back to Prediction Form</a>
+</body>
+</html>
